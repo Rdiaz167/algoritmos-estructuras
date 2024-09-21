@@ -18,7 +18,7 @@ package _04_zero_matrix;
 
 public class ZeroMatrix {
     
-    public void ZeroMatrix(int[][] matrix) {
+    public void zeroMatrix(int[][] matrix) {
 
         boolean firstRowZero = hasFirstRowAnyZero(matrix);
         boolean firstColZero = hasFirstColAnyZero(matrix);

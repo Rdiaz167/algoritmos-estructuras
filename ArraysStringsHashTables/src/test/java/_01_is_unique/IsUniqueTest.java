@@ -14,4 +14,4 @@ public class IsUniqueTest {
         assertTrue(isUnique.isUnique("aAbBcCdDeE"));
         assertFalse(isUnique.isUnique("abcded"));
     }
-}
+} 

@@ -1,5 +1,7 @@
 package _02_merge_two_sorted_list;
 
+import _00_linkedlist.Node;
+
 public class MergeTwoSortedLists {
 
     public Node mergeTwoLists(Node list1, Node list2) {

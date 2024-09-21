@@ -2,7 +2,7 @@ package _01_remove_dups;
 
 import java.util.HashSet;
 
-import org.w3c.dom.Node;
+import _00_linkedlist.Node;
 
 public class RemoveDups {
 
@@ -17,6 +17,5 @@ public class RemoveDups {
             }
             current = current.next;
         }
-    }
-    
+    }    
 }
