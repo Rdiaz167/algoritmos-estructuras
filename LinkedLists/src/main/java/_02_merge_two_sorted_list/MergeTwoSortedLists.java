@@ -42,5 +42,4 @@ public class MergeTwoSortedLists {
           current = current.next;
         }
       }
-
 }
