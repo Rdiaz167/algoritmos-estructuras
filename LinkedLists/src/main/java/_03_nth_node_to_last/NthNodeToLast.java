@@ -10,4 +10,22 @@ package _03_nth_node_to_last;
 
 public class NthNodeToLast {
     
+    public Node nthNodeToLast(Node head, int n) {
+        Node p1 = head;
+        Node p2 = head;
+
+        // Avanzamos n posiciones con el primer puntero
+        for(int i = 0; i < n; i++) {
+            if(p1 == null) {
+                return null;
+            }
+            p1 = p1.next;
+        }
+        // Avanzamos ambos al mismo ritmo hasta que el puntero avanzado llegue al final
+        while(p1 != null) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+        return p2;
+    }
 }
