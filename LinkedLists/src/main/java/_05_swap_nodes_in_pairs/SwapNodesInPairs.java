@@ -1,5 +1,7 @@
 package _05_swap_nodes_in_pairs;
 
+import _00_linkedlist.Node;
+
 public class SwapNodesInPairs {
 
     public Node swapNodesInPairs(Node head) {
