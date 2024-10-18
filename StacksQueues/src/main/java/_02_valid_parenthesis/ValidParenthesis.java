@@ -17,7 +17,7 @@ import java.util.Deque;
  */
 
 public class ValidParenthesis {
-
+  
     public boolean isValid(String s) {
         Deque<Character> stack = new ArrayDeque<>();
         for(char c : s.toCharArray()) {
@@ -36,5 +36,4 @@ public class ValidParenthesis {
         if(c == '[') return ']';
         return 0;
       }
-
 }
