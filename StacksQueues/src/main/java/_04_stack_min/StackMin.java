@@ -19,5 +19,15 @@ public class StackMin {
         }
     }
 
-    
+    public int pop() {
+        int value = valuesStack.pop();
+        if(value == minStack.peek()) {
+            minStack.pop();
+        }
+        return value;
+    }
+
+    public int min() {
+        return minStack.peek();
+    }
 }
